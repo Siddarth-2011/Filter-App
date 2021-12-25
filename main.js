@@ -1,7 +1,7 @@
 function preload(){    
 }
 
-function step(){
+function setup(){
     canvas = createCanvas(640, 480);
     canvas.position(110, 250);
     video = createCaputure(VIDEO);
